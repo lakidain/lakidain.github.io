@@ -1,0 +1,122 @@
+/*================= HTML ================= */
+:root {
+    --main-color: rgb(255, 110, 110);
+    --title-color: black;
+    --greeting-text-color: rgb(180, 180, 180);
+    --text-color: rgb(121, 121, 121);
+    --selection-background: rgb(255, 124, 129);
+    --selection-hover: red;
+    --selection-text: white;
+    --background-color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: var(--background-color) !important;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+/*================= COLOUR CHANGE WHEN SELECTING ================= */
+::selection {
+    color: var(--selection-text);
+    background-color: var(--selection-background);
+}
+
+/*================= CONTAINER ================= */
+.container{
+    font-family: Nunito, sans-serif;
+    color: var(--text-color);
+}
+
+/*================= IMAGE ================= */
+/**TODO Introducir un media query para que la imagen tenga un margin top mas pequeño*/ 
+.image{
+    border-radius: 50%;
+    width: 90%;
+    margin-top: 11.7em;
+}
+
+/*================= TEXT SECTION ================= */
+.about{
+    margin-top: 17em;
+}
+
+h1{
+    display: block;
+    color: var(--title-color);
+    font-weight: 700 !important;
+}
+
+.greeting{
+    color: var(--greeting-text-color);
+    font-weight: 500;
+    display: block;
+    position: relative;
+    font-size: 50%;
+    margin-bottom: 0.7em;
+}
+
+.coloredDot{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.link{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--selection-hover);
+    text-decoration: none;
+}
+
+#aboutText{
+    margin-top: 1.3em;
+}
+
+/*================= VARIABLES DARK THEME ================= */
+body.dark-theme{
+    --main-color: rgb(255, 110, 110);
+    --title-color: white;
+    --greeting-text-color: rgb(180, 180, 180);
+    --text-color: white;
+    --selection-background: rgb(255, 124, 129);
+    --selection-hover: red;
+    --selection-text: white;
+    --background-color: rgb(0 0 0 / 90%);
+}
+
+/*================= BUTTON DARK/LIGHT ================= */
+.nav_btns{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.change-theme{
+    font-size: 1.6rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+/*================= MEDIA QUERIES ================= */
+/* For small devices*/
+@media screen and (max-width: 767px) {
+
+    .image{
+        border-radius: 50%;
+        width: 90%;
+        margin-top: 1em;
+        margin-left: 1.2em;
+    }
+
+    .about{
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+}
+
