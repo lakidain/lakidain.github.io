@@ -111,7 +111,17 @@ body.dark-theme{
         border-radius: 50%;
         width: 90%;
         margin-top: 1em;
-        margin-left: 1.2em;
+        margin-left: 1em;
+    }
+
+    #presentation{
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    #presentation .greeting{
+        margin-left: -1.7em;
+        text-align: center;
     }
 
     .about{
