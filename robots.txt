@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://lakidain.github.io/sitemap.xml
