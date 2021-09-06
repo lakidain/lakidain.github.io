@@ -32,11 +32,14 @@ body{
 }
 
 /*================= IMAGE ================= */
-/**TODO Introducir un media query para que la imagen tenga un margin top mas pequeño*/ 
 .image{
     border-radius: 50%;
     width: 90%;
     margin-top: 11.7em;
+}
+
+.imageMobile{
+    display: none;
 }
 
 /*================= TEXT SECTION ================= */
@@ -78,6 +81,14 @@ h1{
     margin-top: 1.3em;
 }
 
+.socialDesktop{
+    display: flex;
+}
+
+.socialMobile{
+    display: none !important;
+}
+
 /*================= VARIABLES DARK THEME ================= */
 body.dark-theme{
     --main-color: rgb(255, 110, 110);
@@ -110,9 +121,27 @@ body.dark-theme{
     .image{
         border-radius: 50%;
         width: 90%;
-        margin-top: 1em;
-        margin-left: 1em;
+        margin-top: 1.5em;
+        margin-left: 1.1em;
     }
+
+    .imageDesktop{
+        display: none;
+    }
+
+    .imageMobile{
+        display: flex;
+    }
+
+    .socialDesktop{
+        display: none;
+    }
+
+    .socialMobile{
+        display: flex !important;
+    }
+    
+
 
     #presentation{
         margin-top: 1em;
@@ -127,6 +156,11 @@ body.dark-theme{
     .about{
         margin-top: 1em;
         padding-bottom: 2em;
+    }
+
+    #aboutText{
+        margin-left: 2.3em;
+        margin-right: 2em;
     }
 }
 
