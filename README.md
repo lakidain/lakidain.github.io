@@ -1,4 +1,11 @@
 # Ander Lakidain - Software Engineer
+<p align="center">
+  <img src="images/Astronaut_1.jpg" style="height: 360px; border-radius: 50%;" /> 
+  
+  <br />
+</p>
+
+
 [Personal website](https://lakidain.github.io/) where you can find my resume and my contact info.
 
 Astronaut images are created by [Catalystuff](https://www.freepik.com/catalyststuff) shared on [Freepik](https://www.freepik.com) for free ❤️.
