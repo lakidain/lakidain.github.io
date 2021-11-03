@@ -1,3 +1,12 @@
+/*==================== RANDOM IMAGE ========================*/
+
+var astronaut_number = Math.floor(Math.random() * 12)
+
+$("#imageDesktop").attr("src", "images/Astronaut_" + astronaut_number + ".jpg");
+$("#imageDesktop").removeAttr('hidden');
+$("#imageMobile").attr("src", "images/Astronaut_" + astronaut_number + ".jpg");
+$("#imageMobile").removeAttr('hidden');
+
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
