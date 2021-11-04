@@ -1,6 +1,6 @@
 /*==================== RANDOM IMAGE ========================*/
 
-var astronaut_number = Math.floor(Math.random() * 12)
+var astronaut_number = Math.floor(Math.random() * 6)
 
 $("#imageDesktop").attr("src", "images/Astronaut_" + astronaut_number + ".jpg");
 $("#imageDesktop").removeAttr('hidden');
