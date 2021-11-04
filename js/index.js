@@ -2,6 +2,10 @@
 
 var astronaut_number = Math.floor(Math.random() * 6)
 
+if(astronaut_number > 5){
+    astronaut_number = 0;
+}
+
 $("#imageDesktop").attr("src", "images/Astronaut_" + astronaut_number + ".jpg");
 $("#imageDesktop").removeAttr('hidden');
 $("#imageMobile").attr("src", "images/Astronaut_" + astronaut_number + ".jpg");
