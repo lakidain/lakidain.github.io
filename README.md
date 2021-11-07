@@ -8,7 +8,7 @@
 
 Astronaut images are created by [Catalystuff](https://www.freepik.com/catalyststuff) shared on [Freepik](https://www.freepik.com) for free ❤️.
 
-Faviton designed by [Freepik](https://www.flaticon.com/authors/freepik) published on [Flaticon](https://www.flaticon.com).
+Favicon designed by [Freepik](https://www.flaticon.com/authors/freepik) published on [Flaticon](https://www.flaticon.com).
 
 Find me following links below! 🚀
 
