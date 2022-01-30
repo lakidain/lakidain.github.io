@@ -18,10 +18,9 @@ const iconTheme = "fa-sun";
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem("selected-theme");
-const checkbox = localStorage.getItem("checkbox");
 
 console.log(checkbox)
-document.querySelector('#theme-button').checked = (checkbox === 'true')?true:false
+document.querySelector('#theme-button').checked = (selectedTheme === darkTheme)?true:false
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () =>
@@ -44,6 +43,5 @@ themeButton.addEventListener("click", () => {
     themeButton.classList.toggle(iconTheme);
     // We save the theme and the current icon that the user chose
     localStorage.setItem("selected-theme", getCurrentTheme());
-    localStorage.setItem("checkbox", document.querySelector('#theme-button').checked);
 });
 });
