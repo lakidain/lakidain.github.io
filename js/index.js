@@ -19,8 +19,8 @@ const iconTheme = "fa-sun";
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem("selected-theme");
 
-console.log(checkbox)
-document.querySelector('#theme-button').checked = (selectedTheme === darkTheme)?true:false
+console.log(selectedTheme)
+document.querySelector('#theme-button').checked = (selectedTheme === "dark")?true:false
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () =>
