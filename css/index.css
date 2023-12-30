@@ -5,7 +5,7 @@
     --greeting-text-color: rgb(180, 180, 180);
     --text-color: rgb(121, 121, 121);
     --selection-background: rgb(255, 124, 129);
-    --selection-hover: red;
+    --selection-hover: black;
     --selection-text: white;
     --background-color: white;
 }
@@ -97,7 +97,7 @@ body.dark-theme{
     --greeting-text-color: rgb(180, 180, 180);
     --text-color: white;
     --selection-background: rgb(255, 124, 129);
-    --selection-hover: red;
+    --selection-hover: white;
     --selection-text: white;
     --background-color: rgb(0 0 0 / 90%);
 }
